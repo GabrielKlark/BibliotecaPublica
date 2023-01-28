@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #C0B9B5;
+    color: #f5f5f5;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+header,
+main {
+    height: 100%;
+    width: 50%;
+}
+
+header {
+    background-image: url("../../assets/img/bg-home.jpg");
+    background-size: cover;
+    background-position-x: center;
+    
+    -moz-box-shadow:    inset 0 0 100px 50px #000;
+    -webkit-box-shadow: inset 0 0 100px 50px #000;
+    box-shadow:         inset 0 0 100px 50px #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+
+    font-family: 'PT Serif', serif;
+}
+header h2,
+header h3 {
+    margin: 60px 40px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #000;
+}
+header h3 {
+    font-size: 2rem;
+}
+header h2 {
+    font-size: 3rem;
+    text-align: right;
+}
+
+main {
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    font-size: 2rem;
+    text-shadow: 5px 5px 5px #000;
+}
+main .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+main .buttonsContainer div {
+    background-color: #282221;
+
+    -moz-box-shadow:    inset 0 0 10px #282221;
+    -webkit-box-shadow: inset 0 0 10px #282221;
+    box-shadow:         inset 0 0 50px #282221;
+
+    margin: 6px;
+    height: 120px;
+    width: 100%;
+
+    transition: all 500ms;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .buttonsContainer div:hover {
+    -moz-box-shadow:    inset 0 0 10px #fff;
+    -webkit-box-shadow: inset 0 0 10px #fff;
+    box-shadow:         inset 0 0 10px #fff;
+
+    cursor: pointer;
+}
+main .buttonsContainer div p {
+    height: 100%;
+}
+
+main .buttonsContainer #Func {
+    background-image: url("../../assets/img/home-func.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+main .buttonsContainer #Liv {
+    background-image: url("../../assets/img/home-liv.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+main .buttonsContainer #Clie {
+    background-image: url("../../assets/img/home-clie.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+main .buttonsContainer #Est {
+    background-image: url("../../assets/img/home-est.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+main .buttonsContainer #Data {
+    background-image: url("../../assets/img/home-data.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+/*
+    Scrollbar
+*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #86766e;
+    border-radius: 10px;
+}

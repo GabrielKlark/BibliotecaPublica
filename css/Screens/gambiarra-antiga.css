@@ -1,0 +1,36 @@
+/*ID*/
+th:first-child {
+    min-width: 80px;
+}
+/*Nome*/
+th:nth-child(2) {
+    min-width: 160px;
+}
+/*CPF*/
+th:nth-child(3) {
+    min-width: 110px;
+}
+/*Cel*/
+th:nth-child(4) {
+    min-width: 140px;
+}
+/*Email*/
+th:nth-child(5) {
+    min-width: 160px;
+}
+/*Gênero*/
+th:nth-child(6) {
+    min-width: 140px;
+}
+/*Nascimento*/
+th:nth-child(7) {
+    min-width: 80px;
+}
+/*Perfil*/
+th:nth-child(8) {
+    min-width: 30px;
+}
+/*End*/
+th:nth-child(9) {
+    min-width: 300px;
+}
